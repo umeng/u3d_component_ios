@@ -139,7 +139,7 @@ void GetTag_iOS(TagHandler callback){
     }];
 }
 
-void AddAlias(const char*  alias, const char*  type,  AliasDelegate callback){
+void AddAlias_iOS(const char*  alias, const char*  type,  AliasDelegate callback){
     
     [UMessage addAlias:getNSStringFromCStr(alias) type:getNSStringFromCStr(type) response:^(id  _Nonnull responseObject, NSError * _Nonnull error) {
         int code = -1;

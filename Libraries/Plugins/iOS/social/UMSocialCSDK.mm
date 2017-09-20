@@ -12,7 +12,7 @@
 //#import "UMSocialUIObject.h"
 //#import "UMSocialCObject.h"
 #import <UShareUI/UShareUI.h>
-#import <UMSocialCore/UMSocialCore.h>
+#import <UMShare/UMShare.h>
 #import "UnityAppController.h"
 //#import "UMSocialQQHandler.h"
 //#import "UMSocialWechatHandler.h"
