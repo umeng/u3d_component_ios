@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B857E28ACBD2CA58DBFAACDC47559394F291769F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B857E28ACBD2CA58DBFAACDC47559394F291769F" : 0,
+    "9CE737DC181ACAAFF684F7E40930E6F834E6B1CD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C5F5F325-E933-4450-80FB-5EA9E6BC8BE7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B857E28ACBD2CA58DBFAACDC47559394F291769F" : "iOS_Component\/",
+    "9CE737DC181ACAAFF684F7E40930E6F834E6B1CD" : "..\/..\/..\/..\/Documents\/source\/Unity3D_Component"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Unity-iPhone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Unity-iPhone.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:ThirdComponent\/Unity3D_Component.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CE737DC181ACAAFF684F7E40930E6F834E6B1CD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.alibaba-inc.com:ThirdComponent\/u3d_component_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B857E28ACBD2CA58DBFAACDC47559394F291769F"
+    }
+  ]
+}
