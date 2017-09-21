@@ -3,12 +3,12 @@
 #import <QuartzCore/CADisplayLink.h>
 
 #include "PluginBase/RenderPluginDelegate.h"
-
+#import <UserNotifications/UserNotifications.h>
 @class UnityView;
 @class UnityViewControllerBase;
 @class DisplayConnection;
 
-@interface UnityAppController : NSObject<UIApplicationDelegate>
+@interface UnityAppController : NSObject<UIApplicationDelegate,UNUserNotificationCenterDelegate>
 {
     UnityView*          _unityView;
     CADisplayLink*      _displayLink;

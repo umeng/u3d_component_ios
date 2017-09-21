@@ -31,6 +31,8 @@
 #include "Unity/EAGLContextHelper.h"
 #include "Unity/GlesHelper.h"
 #include "PluginBase/AppDelegateListener.h"
+#import <UMCommon/UMCommon.h>
+#import <UMPush/UMessage.h>
 
 // Set this to 1 to force single threaded rendering
 #define UNITY_FORCE_DIRECT_RENDERING 0
@@ -165,6 +167,7 @@ extern "C" void UnityRequestQuit()
 #if !PLATFORM_TVOS
 - (void)application:(UIApplication*)application didReceiveLocalNotification:(UILocalNotification*)notification
 {
+    
     AppController_SendNotificationWithArg(kUnityDidReceiveLocalNotification, notification);
     UnitySendLocalNotification(notification);
 }
@@ -230,6 +233,19 @@ extern "C" void UnityRequestQuit()
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
+    [UMConfigure initWithAppkey:@"58291ea0f29d986df5000852" channel:@"App Store"];
+    // Push组件基本功能配置
+    UMessageRegisterEntity * entity = [[UMessageRegisterEntity alloc] init];
+    //type是对推送的几个参数的选择，可以选择一个或者多个。默认是三个全部打开，即：声音，弹窗，角标等
+    entity.types = UMessageAuthorizationOptionBadge|UMessageAuthorizationOptionAlert;
+    [UNUserNotificationCenter currentNotificationCenter].delegate = self;
+    [UMessage registerForRemoteNotificationsWithLaunchOptions:launchOptions Entity:entity completionHandler:^(BOOL granted, NSError * _Nullable error) {
+        if (granted) {
+            // 用户选择了接收Push消息
+        }else{
+            // 用户拒绝接收Push消息
+        }
+    }];
     ::printf("-> applicationDidFinishLaunching()\n");
 
     // send notfications
@@ -260,6 +276,41 @@ extern "C" void UnityRequestQuit()
     [KeyboardDelegate Initialize];
 
     return YES;
+}
+
+-(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    [UMessage didReceiveRemoteNotification:userInfo];
+}
+
+//iOS10新增：处理前台收到通知的代理方法
+-(void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler{
+    NSDictionary * userInfo = notification.request.content.userInfo;
+    if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
+        //应用处于前台时的远程推送接受
+        //关闭U-Push自带的弹出框
+        [UMessage setAutoAlert:NO];
+        //必须加这句代码
+        [UMessage didReceiveRemoteNotification:userInfo];
+        
+    }else{
+        //应用处于前台时的本地推送接受
+    }
+    //当应用处于前台时提示设置，需要哪个可以设置哪一个
+    completionHandler(UNNotificationPresentationOptionSound|UNNotificationPresentationOptionBadge|UNNotificationPresentationOptionAlert);
+}
+
+//iOS10新增：处理后台点击通知的代理方法
+-(void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler{
+    NSDictionary * userInfo = response.notification.request.content.userInfo;
+    if([response.notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
+        //应用处于后台时的远程推送接受
+        //必须加这句代码
+        [UMessage didReceiveRemoteNotification:userInfo];
+        
+    }else{
+        //应用处于后台时的本地推送接受
+    }
 }
 
 - (void)applicationDidEnterBackground:(UIApplication*)application

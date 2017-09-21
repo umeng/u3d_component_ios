@@ -34,6 +34,7 @@
 		17AF24201F726D9A002FB20C /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24131F726D30002FB20C /* TwitterKit.framework */; };
 		17AF24231F726FDB002FB20C /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B5CD1F72597500CC18E8 /* UMCommon.framework */; };
 		17AF24241F7270CD002FB20C /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24221F726F96002FB20C /* UMAnalytics.framework */; };
+		17AF24261F73EB1F002FB20C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24251F73EB1E002FB20C /* UserNotifications.framework */; };
 		1859EA9B19214E7B0022C3D3 /* MetalHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */; };
 		18644099821293771F40A45A /* Bulk_UnityEngine_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C14C9DB551FD212676B284 /* Bulk_UnityEngine_2.cpp */; };
 		19994877A2CD649FCC6324CA /* Bulk_mscorlib_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1E744DD8E2A60781AB36D1E /* Bulk_mscorlib_1.cpp */; };
@@ -206,6 +207,8 @@
 		17AF24181F726D30002FB20C /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		17AF24191F726D30002FB20C /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
 		17AF24221F726F96002FB20C /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		17AF24251F73EB1E002FB20C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		17AF24271F73EBF4002FB20C /* UMDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = UMDemo.entitlements; path = "Unity-iPhone/UMDemo.entitlements"; sourceTree = "<group>"; };
 		17C1FF101F72520B00C9646D /* libUMUnityAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMUnityAnalytics.a; sourceTree = "<group>"; };
 		17C1FF131F72520B00C9646D /* UMPushSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMPushSDK.h; sourceTree = "<group>"; };
 		17C1FF141F72520B00C9646D /* UMPushSDK.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = UMPushSDK.mm; sourceTree = "<group>"; };
@@ -423,6 +426,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AF24261F73EB1F002FB20C /* UserNotifications.framework in Frameworks */,
 				1765B5CB1F72575A00CC18E8 /* libsqlite3.tbd in Frameworks */,
 				17AF24241F7270CD002FB20C /* UMAnalytics.framework in Frameworks */,
 				17AF241B1F726D42002FB20C /* UMShare.framework in Frameworks */,
@@ -872,6 +876,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				17AF24271F73EBF4002FB20C /* UMDemo.entitlements */,
 				AA31BF961B55660D0013FB1B /* Data */,
 				56C56C9717D6015100616839 /* Images.xcassets */,
 				D82DCFB50E8000A5005D6AD8 /* Classes */,
@@ -893,6 +898,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17AF24251F73EB1E002FB20C /* UserNotifications.framework */,
 				17AF23FC1F726D30002FB20C /* Plugins */,
 				1765B5CA1F72575A00CC18E8 /* libsqlite3.tbd */,
 				960391211D6CE46E003BF157 /* MediaToolbox.framework */,
@@ -1126,6 +1132,9 @@
 							com.apple.GameControllers.appletvos = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 						};
 					};
 					5623C57217FDCB0800090B9E = {
@@ -1347,6 +1356,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone/UMDemo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = "";
@@ -1452,6 +1462,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone/UMDemo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1723,6 +1734,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone/UMDemo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1917,6 +1929,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Unity-iPhone/UMDemo.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
