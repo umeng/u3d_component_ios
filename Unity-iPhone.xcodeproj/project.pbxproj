@@ -23,8 +23,6 @@
 		1765B5CB1F72575A00CC18E8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B5CA1F72575A00CC18E8 /* libsqlite3.tbd */; };
 		1765B5CF1F725ADB00CC18E8 /* libUMSocialCloudShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C1FF431F72520B00C9646D /* libUMSocialCloudShare.a */; };
 		1765B5D01F725ADD00CC18E8 /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C1FF441F72520B00C9646D /* libUMSocialLog.a */; };
-		1765B5D21F725C8100CC18E8 /* iPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B5D11F725C8100CC18E8 /* iPhone-lib.a */; };
-		1765B5D41F725CD700CC18E8 /* il2cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B5D31F725CD700CC18E8 /* il2cpp.a */; };
 		1765B5D51F72607A00CC18E8 /* UMPushSDK.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17C1FF141F72520B00C9646D /* UMPushSDK.mm */; };
 		1765B5D61F72609000CC18E8 /* UMSocialCSDK.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17C1FF461F72520B00C9646D /* UMSocialCSDK.mm */; };
 		1765B5D71F72623500CC18E8 /* libSocialTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C1FF351F72520B00C9646D /* libSocialTwitter.a */; };
@@ -34,8 +32,6 @@
 		17AF241E1F726D9A002FB20C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24111F726D30002FB20C /* Fabric.framework */; };
 		17AF241F1F726D9A002FB20C /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24121F726D30002FB20C /* TwitterCore.framework */; };
 		17AF24201F726D9A002FB20C /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24131F726D30002FB20C /* TwitterKit.framework */; };
-		17AF24231F726FDB002FB20C /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1765B5CD1F72597500CC18E8 /* UMCommon.framework */; };
-		17AF24241F7270CD002FB20C /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24221F726F96002FB20C /* UMAnalytics.framework */; };
 		17AF24261F73EB1F002FB20C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AF24251F73EB1E002FB20C /* UserNotifications.framework */; };
 		1859EA9B19214E7B0022C3D3 /* MetalHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */; };
 		18644099821293771F40A45A /* Bulk_UnityEngine_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4C14C9DB551FD212676B284 /* Bulk_UnityEngine_2.cpp */; };
@@ -63,7 +59,7 @@
 		532F4764835750E07987B768 /* LaunchScreen-iPhoneLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C3684C8CA6981C67880A5A28 /* LaunchScreen-iPhoneLandscape.png */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
-		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
+		5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		5682F4B20F3B34FF007A219C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5682F4B10F3B34FF007A219C /* MediaPlayer.framework */; };
 		5692F3DD0FA9D8E500EBA2F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */; };
@@ -75,6 +71,9 @@
 		56DC4159B73D2F4F6C4D0EAB /* Il2CppCompilerCalculateTypeValues_4Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37714AFF8470C638467BCF85 /* Il2CppCompilerCalculateTypeValues_4Table.cpp */; };
 		56FD43960ED4745200FE3770 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FD43950ED4745200FE3770 /* CFNetwork.framework */; };
 		570D4880B15B967C265B5A43 /* Bulk_UnityEngine_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E524BD098606C0C04E1C11A /* Bulk_UnityEngine_0.cpp */; };
+		6378FE8D1F74E496008F8BE0 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378FE8C1F74E496008F8BE0 /* UMCommon.framework */; };
+		6378FE911F74E5B7008F8BE0 /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378FE901F74E5B7008F8BE0 /* UMAnalytics.framework */; };
+		6378FE921F74E6A2008F8BE0 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378FE8E1F74E4B3008F8BE0 /* libiPhone-lib.a */; };
 		665D42FEA44CA997EBFF69FC /* Il2CppCompilerCalculateTypeValues_13Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA724963B9CFB98D4EFBF294 /* Il2CppCompilerCalculateTypeValues_13Table.cpp */; };
 		683142C59F8E5D040FA389C1 /* Bulk_Generics_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5674C9B8D0CB1A0696CDE21 /* Bulk_Generics_2.cpp */; };
 		71DD4F9999CE00E33C3D26FD /* Il2CppCompilerCalculateTypeValues_1Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79144307AE57D69B29AEF258 /* Il2CppCompilerCalculateTypeValues_1Table.cpp */; };
@@ -126,7 +125,6 @@
 		8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7755F17997D1300341121 /* AppDelegateListener.mm */; };
 		8B7C4F2D8EE9128CA6A225BA /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCD4687BA750222E882BBE5 /* MetalKit.framework */; };
 		8E624E11BB91F9BE79F3529B /* Il2CppGenericMethodPointerTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DED476286E0CA1E8CDF7144 /* Il2CppGenericMethodPointerTable.cpp */; };
-		90A44FE6BF46BB80A2BE6C11 /* MobClickInOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A74FC1958545C0A51C1F71 /* MobClickInOne.a */; };
 		928D482ABB13F74292A88B0C /* Il2CppGenericClassTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D78548C795A416B00C96D55B /* Il2CppGenericClassTable.cpp */; };
 		9384445AA19FB6227C060908 /* Il2CppCompilerCalculateTypeValues_7Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C84E41DFBE0BF60DAAA12C52 /* Il2CppCompilerCalculateTypeValues_7Table.cpp */; };
 		960391221D6CE46E003BF157 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960391211D6CE46E003BF157 /* MediaToolbox.framework */; };
@@ -206,9 +204,6 @@
 		0E4B4B3E81E8AC954786A3B9 /* Bulk_Generics_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Generics_3.cpp; path = Classes/Native/Bulk_Generics_3.cpp; sourceTree = SOURCE_ROOT; };
 		123F46D0A9A7CD83601E52F4 /* LaunchScreen-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPad.png"; sourceTree = SOURCE_ROOT; };
 		1765B5CA1F72575A00CC18E8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1765B5CD1F72597500CC18E8 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
-		1765B5D11F725C8100CC18E8 /* iPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "iPhone-lib.a"; sourceTree = "<group>"; };
-		1765B5D31F725CD700CC18E8 /* il2cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = il2cpp.a; sourceTree = "<group>"; };
 		17AF23FF1F726D30002FB20C /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
 		17AF24041F726D30002FB20C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		17AF24051F726D30002FB20C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -225,7 +220,6 @@
 		17AF24161F726D30002FB20C /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
 		17AF24181F726D30002FB20C /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		17AF24191F726D30002FB20C /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
-		17AF24221F726F96002FB20C /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
 		17AF24251F73EB1E002FB20C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		17AF24271F73EBF4002FB20C /* UMDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = UMDemo.entitlements; path = "Unity-iPhone/UMDemo.entitlements"; sourceTree = "<group>"; };
 		17C1FF101F72520B00C9646D /* libUMUnityAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMUnityAnalytics.a; sourceTree = "<group>"; };
@@ -301,6 +295,10 @@
 		56FD43950ED4745200FE3770 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5F224585B423A0EAAC08399F /* Bulk_Generics_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Generics_1.cpp; path = Classes/Native/Bulk_Generics_1.cpp; sourceTree = SOURCE_ROOT; };
 		5F60483C8AF5B2A664DE1CDD /* Bulk_Generics_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Generics_0.cpp; path = Classes/Native/Bulk_Generics_0.cpp; sourceTree = SOURCE_ROOT; };
+		6378FE8C1F74E496008F8BE0 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		6378FE8E1F74E4B3008F8BE0 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libiPhone-lib.a"; sourceTree = "<group>"; };
+		6378FE8F1F74E4B4008F8BE0 /* libil2cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2cpp.a; sourceTree = "<group>"; };
+		6378FE901F74E5B7008F8BE0 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
 		63D54F9285A12AF87A4C9E50 /* Il2CppGenericInstDefinitions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericInstDefinitions.cpp; path = Classes/Native/Il2CppGenericInstDefinitions.cpp; sourceTree = SOURCE_ROOT; };
 		653C452484D09F661B5B24CB /* Bulk_mscorlib_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_0.cpp; path = Classes/Native/Bulk_mscorlib_0.cpp; sourceTree = SOURCE_ROOT; };
 		67B144299719C57CBB2D10AC /* LaunchScreen-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "LaunchScreen-iPhone.xib"; sourceTree = SOURCE_ROOT; };
@@ -389,7 +387,6 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D86487B940A7563B7D7844B /* Il2CppCompilerCalculateTypeValues_11Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_11Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_11Table.cpp; sourceTree = SOURCE_ROOT; };
 		923A48A69D0BAED5ABAB33AB /* IUnityGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityGraphics.h; path = Classes/Unity/IUnityGraphics.h; sourceTree = SOURCE_ROOT; };
-		92A74FC1958545C0A51C1F71 /* MobClickInOne.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = MobClickInOne.a; path = Libraries/Plugins/iOS/MobClickInOne.a; sourceTree = SOURCE_ROOT; };
 		932B4D80921483232895F8ED /* Bulk_System.Core_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_System.Core_0.cpp; path = Classes/Native/Bulk_System.Core_0.cpp; sourceTree = SOURCE_ROOT; };
 		960391211D6CE46E003BF157 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		9994751F1A7BC3AE00178130 /* UnityAdsUnityWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityAdsUnityWrapper.mm; path = UnityAds/UnityAdsUnityWrapper.mm; sourceTree = "<group>"; };
@@ -449,18 +446,17 @@
 			files = (
 				17AF24261F73EB1F002FB20C /* UserNotifications.framework in Frameworks */,
 				1765B5CB1F72575A00CC18E8 /* libsqlite3.tbd in Frameworks */,
-				17AF24241F7270CD002FB20C /* UMAnalytics.framework in Frameworks */,
 				17AF241B1F726D42002FB20C /* UMShare.framework in Frameworks */,
 				960391221D6CE46E003BF157 /* MediaToolbox.framework in Frameworks */,
 				1765B5D01F725ADD00CC18E8 /* libUMSocialLog.a in Frameworks */,
 				AA5D99871AFAD3C800B27605 /* CoreText.framework in Frameworks */,
 				17AF24201F726D9A002FB20C /* TwitterKit.framework in Frameworks */,
+				6378FE911F74E5B7008F8BE0 /* UMAnalytics.framework in Frameworks */,
 				8358D1B80ED1CC3700E3A684 /* AudioToolbox.framework in Frameworks */,
 				1765B5D71F72623500CC18E8 /* libSocialTwitter.a in Frameworks */,
 				17AF241F1F726D9A002FB20C /* TwitterCore.framework in Frameworks */,
 				7F36C11313C5C673007FBDD9 /* AVFoundation.framework in Frameworks */,
 				56FD43960ED4745200FE3770 /* CFNetwork.framework in Frameworks */,
-				1765B5D41F725CD700CC18E8 /* il2cpp.a in Frameworks */,
 				56B7959B1442E0F20026B3DD /* CoreGraphics.framework in Frameworks */,
 				5692F3DD0FA9D8E500EBA2F1 /* CoreLocation.framework in Frameworks */,
 				7F36C11113C5C673007FBDD9 /* CoreMedia.framework in Frameworks */,
@@ -468,7 +464,7 @@
 				7F36C11213C5C673007FBDD9 /* CoreVideo.framework in Frameworks */,
 				17AF241A1F726D38002FB20C /* UMPush.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1765B5D21F725C8100CC18E8 /* iPhone-lib.a in Frameworks */,
+				6378FE8D1F74E496008F8BE0 /* UMCommon.framework in Frameworks */,
 				5682F4B20F3B34FF007A219C /* MediaPlayer.framework in Frameworks */,
 				83B2574C0E63022200468741 /* OpenAL.framework in Frameworks */,
 				83B256E20E62FEA000468741 /* OpenGLES.framework in Frameworks */,
@@ -476,8 +472,8 @@
 				83B2570B0E62FF8A00468741 /* QuartzCore.framework in Frameworks */,
 				17AF241D1F726D89002FB20C /* UShareUI.framework in Frameworks */,
 				56BCBA390FCF049A0030C3B2 /* SystemConfiguration.framework in Frameworks */,
+				6378FE921F74E6A2008F8BE0 /* libiPhone-lib.a in Frameworks */,
 				830B5C110E5ED4C100C7819F /* UIKit.framework in Frameworks */,
-				17AF24231F726FDB002FB20C /* UMCommon.framework in Frameworks */,
 				83B2574F0E63025400468741 /* libiconv.2.dylib in Frameworks */,
 				1765B5C91F72546900CC18E8 /* libSocialSina.a in Frameworks */,
 				1765B5C61F72545500CC18E8 /* libUMUnityAnalytics.a in Frameworks */,
@@ -487,7 +483,6 @@
 				8B7C4F2D8EE9128CA6A225BA /* MetalKit.framework in Frameworks */,
 				21E547EBA0CC469143977422 /* Metal.framework in Frameworks */,
 				1205455E95164938E93BDC11 /* libil2cpp.a in Frameworks */,
-				90A44FE6BF46BB80A2BE6C11 /* MobClickInOne.a in Frameworks */,
 				49B241D4BBBEDE5E37157B69 /* FBSDKShareKit.framework in Frameworks */,
 				0ECF4C26A2A5E46DF49F3774 /* libSocialFacebook.a in Frameworks */,
 				4B284C6FBD56D0E9C94EDECD /* libSocialTencentWeibo.a in Frameworks */,
@@ -519,7 +514,7 @@
 		1765B5CC1F72597500CC18E8 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				1765B5CD1F72597500CC18E8 /* UMCommon.framework */,
+				6378FE8C1F74E496008F8BE0 /* UMCommon.framework */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -656,7 +651,7 @@
 		17AF24211F726F96002FB20C /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				17AF24221F726F96002FB20C /* UMAnalytics.framework */,
+				6378FE901F74E5B7008F8BE0 /* UMAnalytics.framework */,
 			);
 			path = Analytics;
 			sourceTree = "<group>";
@@ -676,7 +671,6 @@
 				17C1FF101F72520B00C9646D /* libUMUnityAnalytics.a */,
 				17C1FF121F72520B00C9646D /* push */,
 				17C1FF151F72520B00C9646D /* social */,
-				92A74FC1958545C0A51C1F71 /* MobClickInOne.a */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -1103,13 +1097,13 @@
 		D8A1C7220E80637F000160D3 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				1765B5D11F725C8100CC18E8 /* iPhone-lib.a */,
+				6378FE8F1F74E4B4008F8BE0 /* libil2cpp.a */,
+				6378FE8E1F74E4B3008F8BE0 /* libiPhone-lib.a */,
 				AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */,
 				AAC3E38C1A68945900F6174A /* RegisterFeatures.h */,
 				D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */,
 				D8A1C7250E80637F000160D3 /* RegisterMonoModules.h */,
 				03F528621B447098000F4FB8 /* Il2CppOptions.cpp */,
-				1765B5D31F725CD700CC18E8 /* il2cpp.a */,
 				17C1FF0E1F72520B00C9646D /* Plugins */,
 				A8B34D969A7B91E24D5D6AFE /* libil2cpp.a */,
 			);
@@ -1225,7 +1219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5623C57D17FDCB0900090B9E,
+				5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1388,7 +1382,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1408,6 +1405,8 @@
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialUI",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialSDK",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocial_Sdk_Extra_Frameworks/QQ/QQSDK",
+					"$(PROJECT_DIR)/Libraries/Plugins/iOS/common",
+					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/Analytics",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
@@ -1489,7 +1488,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1509,6 +1511,8 @@
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialUI",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialSDK",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocial_Sdk_Extra_Frameworks/QQ/QQSDK",
+					"$(PROJECT_DIR)/Libraries/Plugins/iOS/common",
+					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/Analytics",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1587,7 +1591,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1656,7 +1663,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1750,7 +1760,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1771,6 +1784,8 @@
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialUI",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialSDK",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocial_Sdk_Extra_Frameworks/QQ/QQSDK",
+					"$(PROJECT_DIR)/Libraries/Plugins/iOS/common",
+					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/Analytics",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1849,7 +1864,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1937,7 +1955,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
@@ -1957,6 +1978,8 @@
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialUI",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocialSDK",
 					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/social/umeng_ios_social_sdk/UMSocial_Sdk_Extra_Frameworks/QQ/QQSDK",
+					"$(PROJECT_DIR)/Libraries/Plugins/iOS/common",
+					"$(PROJECT_DIR)/Frameworks/Plugins/iOS/Analytics",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2035,7 +2058,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "armv7 arm64";
+				ARCHS = (
+					armv7,
+					arm64,
+				);
 				BUNDLE_LOADER = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(PRODUCT_NAME).app/$(PRODUCT_NAME)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
