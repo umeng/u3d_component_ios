@@ -74,6 +74,8 @@
 		6378FE8D1F74E496008F8BE0 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378FE8C1F74E496008F8BE0 /* UMCommon.framework */; };
 		6378FE911F74E5B7008F8BE0 /* UMAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378FE901F74E5B7008F8BE0 /* UMAnalytics.framework */; };
 		6378FE921F74E6A2008F8BE0 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378FE8E1F74E4B3008F8BE0 /* libiPhone-lib.a */; };
+		6378FEA41F74F605008F8BE0 /* UNUMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378FEA31F74F605008F8BE0 /* UNUMConfigure.m */; };
+		6378FEA61F74F85E008F8BE0 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6378FEA51F74F85E008F8BE0 /* TwitterKitResources.bundle */; };
 		665D42FEA44CA997EBFF69FC /* Il2CppCompilerCalculateTypeValues_13Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA724963B9CFB98D4EFBF294 /* Il2CppCompilerCalculateTypeValues_13Table.cpp */; };
 		683142C59F8E5D040FA389C1 /* Bulk_Generics_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5674C9B8D0CB1A0696CDE21 /* Bulk_Generics_2.cpp */; };
 		71DD4F9999CE00E33C3D26FD /* Il2CppCompilerCalculateTypeValues_1Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79144307AE57D69B29AEF258 /* Il2CppCompilerCalculateTypeValues_1Table.cpp */; };
@@ -299,6 +301,9 @@
 		6378FE8E1F74E4B3008F8BE0 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libiPhone-lib.a"; sourceTree = "<group>"; };
 		6378FE8F1F74E4B4008F8BE0 /* libil2cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libil2cpp.a; sourceTree = "<group>"; };
 		6378FE901F74E5B7008F8BE0 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		6378FEA21F74F605008F8BE0 /* UNUMConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UNUMConfigure.h; sourceTree = "<group>"; };
+		6378FEA31F74F605008F8BE0 /* UNUMConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UNUMConfigure.m; sourceTree = "<group>"; };
+		6378FEA51F74F85E008F8BE0 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		63D54F9285A12AF87A4C9E50 /* Il2CppGenericInstDefinitions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericInstDefinitions.cpp; path = Classes/Native/Il2CppGenericInstDefinitions.cpp; sourceTree = SOURCE_ROOT; };
 		653C452484D09F661B5B24CB /* Bulk_mscorlib_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_mscorlib_0.cpp; path = Classes/Native/Bulk_mscorlib_0.cpp; sourceTree = SOURCE_ROOT; };
 		67B144299719C57CBB2D10AC /* LaunchScreen-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "LaunchScreen-iPhone.xib"; sourceTree = SOURCE_ROOT; };
@@ -514,6 +519,8 @@
 		1765B5CC1F72597500CC18E8 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				6378FEA21F74F605008F8BE0 /* UNUMConfigure.h */,
+				6378FEA31F74F605008F8BE0 /* UNUMConfigure.m */,
 				6378FE8C1F74E496008F8BE0 /* UMCommon.framework */,
 			);
 			path = common;
@@ -623,6 +630,7 @@
 		17AF24101F726D30002FB20C /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				6378FEA51F74F85E008F8BE0 /* TwitterKitResources.bundle */,
 				17AF24111F726D30002FB20C /* Fabric.framework */,
 				17AF24121F726D30002FB20C /* TwitterCore.framework */,
 				17AF24131F726D30002FB20C /* TwitterKit.framework */,
@@ -1205,6 +1213,7 @@
 				56C56C9817D6015200616839 /* Images.xcassets in Resources */,
 				084D43E3BE153A777F891FA1 /* LaunchScreen-iPhone.xib in Resources */,
 				09DB4B7482C8772980FF0F44 /* LaunchScreen-iPhonePortrait.png in Resources */,
+				6378FEA61F74F85E008F8BE0 /* TwitterKitResources.bundle in Resources */,
 				532F4764835750E07987B768 /* LaunchScreen-iPhoneLandscape.png in Resources */,
 				BA0A4FFA8C81BEB4ED40877D /* LaunchScreen-iPad.xib in Resources */,
 				0B4E46768E5B95244D04284B /* LaunchScreen-iPad.png in Resources */,
@@ -1283,6 +1292,7 @@
 				8AF7755D1799329100341121 /* LifeCycleListener.mm in Sources */,
 				8A5C1492174E662D0006EB36 /* RenderPluginDelegate.mm in Sources */,
 				8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */,
+				6378FEA41F74F605008F8BE0 /* UNUMConfigure.m in Sources */,
 				FC0B20A21B7A4F0B00FDFC55 /* OnDemandResources.mm in Sources */,
 				AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */,
 				84DC28F61C5137FE00BC67D7 /* UnityReplayKit.mm in Sources */,

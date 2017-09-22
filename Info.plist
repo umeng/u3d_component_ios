@@ -29,6 +29,63 @@
     <string>1.0</string>
     <key>CFBundleVersion</key>
     <string>0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string></string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>wb3921700954</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>weixin</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>wxdc1e388c3822c80b</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>tencent1105821097</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>QQ41E97DA9</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>qzoneScheme</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>mqzone</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb506027402887373</string>
+            </array>
+        </dict>
+    </array>
     <key>LSApplicationQueriesSchemes</key>
     <array>
       <string>wechat</string>
@@ -70,6 +127,10 @@
       <string>fbauth2</string>
       <string>fbshareextension</string>
     </array>
+    <key>FacebookAppID</key>
+    <string>506027402887373</string>
+    <key>FacebookDisplayName</key>
+    <string>UShare</string>
     <key>LSRequiresIPhoneOS</key>
     <true />
     <key>NSAppTransportSecurity</key>
