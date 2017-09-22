@@ -62,7 +62,6 @@ UMSocialPlatformType const platforms[platformlength] = {
     , UMSocialPlatformType_WechatTimeLine
     , UMSocialPlatformType_QQ
     , UMSocialPlatformType_Qzone
-    , UMSocialPlatformType_Renren
      , UMSocialPlatformType_Facebook
     , UMSocialPlatformType_Twitter
    
