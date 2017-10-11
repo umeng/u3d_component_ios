@@ -55,15 +55,42 @@ NSString* getNSStringFromCStr(const char* cstr){
     }
     return nil;
 }
-int const platformlength = 17;
+int const platformlength = 34;
 UMSocialPlatformType const platforms[platformlength] = {
-    UMSocialPlatformType_Sina
+    UMSocialPlatformType_QQ
+    , UMSocialPlatformType_Sina
     , UMSocialPlatformType_WechatSession
     , UMSocialPlatformType_WechatTimeLine
-    , UMSocialPlatformType_QQ
     , UMSocialPlatformType_Qzone
-     , UMSocialPlatformType_Facebook
+    , UMSocialPlatformType_Email
+    , UMSocialPlatformType_Sms
+    , UMSocialPlatformType_Facebook
     , UMSocialPlatformType_Twitter
+    , UMSocialPlatformType_WechatFavorite
+    , UMSocialPlatformType_GooglePlus
+    , UMSocialPlatformType_Renren
+    , UMSocialPlatformType_TencentWb
+    , UMSocialPlatformType_Douban
+    , UMSocialPlatformType_FaceBookMessenger
+    , UMSocialPlatformType_YixinSession
+    , UMSocialPlatformType_YixinTimeLine
+    , UMSocialPlatformType_Instagram
+    , UMSocialPlatformType_Pinterest
+    , UMSocialPlatformType_EverNote
+    , UMSocialPlatformType_Pocket
+    , UMSocialPlatformType_Linkedin
+    , UMSocialPlatformType_UnKnown
+    , UMSocialPlatformType_YouDaoNote
+    , UMSocialPlatformType_Whatsapp
+    , UMSocialPlatformType_Linkedin
+    , UMSocialPlatformType_Flickr
+    , UMSocialPlatformType_Tumblr
+    , UMSocialPlatformType_AlipaySession
+    , UMSocialPlatformType_KakaoTalk
+    , UMSocialPlatformType_DropBox
+    , UMSocialPlatformType_VKontakte
+    , UMSocialPlatformType_DingDing
+    , UMSocialPlatformType_UnKnown
    
 };
 UMSocialPlatformType getPlatformString(int platform){

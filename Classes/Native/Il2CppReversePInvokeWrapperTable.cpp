@@ -13,7 +13,7 @@
 #include "object-internals.h"
 
 // System.Char[]
-struct CharU5BU5D_t3461283679;
+struct CharU5BU5D_t2642512795;
 
 
 
@@ -32,8 +32,8 @@ struct CharU5BU5D_t3461283679;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
-#ifndef VALUETYPE_T2426393062_H
-#define VALUETYPE_T2426393062_H
+#ifndef VALUETYPE_T939962413_H
+#define VALUETYPE_T939962413_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -41,7 +41,7 @@ struct CharU5BU5D_t3461283679;
 #endif
 
 // System.ValueType
-struct  ValueType_t2426393062  : public RuntimeObject
+struct  ValueType_t939962413  : public RuntimeObject
 {
 public:
 
@@ -52,16 +52,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t2426393062_marshaled_pinvoke
+struct ValueType_t939962413_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t2426393062_marshaled_com
+struct ValueType_t939962413_marshaled_com
 {
 };
-#endif // VALUETYPE_T2426393062_H
-#ifndef ENUM_T3609384420_H
-#define ENUM_T3609384420_H
+#endif // VALUETYPE_T939962413_H
+#ifndef ENUM_T2328863333_H
+#define ENUM_T2328863333_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -69,24 +69,24 @@ struct ValueType_t2426393062_marshaled_com
 #endif
 
 // System.Enum
-struct  Enum_t3609384420  : public ValueType_t2426393062
+struct  Enum_t2328863333  : public ValueType_t939962413
 {
 public:
 
 public:
 };
 
-struct Enum_t3609384420_StaticFields
+struct Enum_t2328863333_StaticFields
 {
 public:
 	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t3461283679* ___split_char_0;
+	CharU5BU5D_t2642512795* ___split_char_0;
 
 public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t3609384420_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t3461283679* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t3461283679** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t3461283679* value)
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t2328863333_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t2642512795* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t2642512795** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t2642512795* value)
 	{
 		___split_char_0 = value;
 		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
@@ -97,16 +97,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t3609384420_marshaled_pinvoke
+struct Enum_t2328863333_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.Enum
-struct Enum_t3609384420_marshaled_com
+struct Enum_t2328863333_marshaled_com
 {
 };
-#endif // ENUM_T3609384420_H
-#ifndef PLATFORM_T3201129691_H
-#define PLATFORM_T3201129691_H
+#endif // ENUM_T2328863333_H
+#ifndef PLATFORM_T567128251_H
+#define PLATFORM_T567128251_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -114,14 +114,14 @@ struct Enum_t3609384420_marshaled_com
 #endif
 
 // Platform
-struct  Platform_t3201129691 
+struct  Platform_t567128251 
 {
 public:
 	// System.Int32 Platform::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Platform_t3201129691, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Platform_t567128251, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -133,22 +133,22 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PLATFORM_T3201129691_H
+#endif // PLATFORM_T567128251_H
 
 
 
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMPush_AliasCallback_m1221664677(int32_t ___stCode0);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMPush_RemainCallback_m703597396(int32_t ___stCode0, int32_t ___remain1);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMPush_TagCallback_m41505297(char* ___result0);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMSocial_AuthCallback_m2161930994(int32_t ___platform0, int32_t ___stCode1, char* ___key2, char* ___value3);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMSocial_ShareCallback_m2090226676(int32_t ___platform0, int32_t ___stCode1, char* ___errorMsg2);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMSocial_ShareBoardCallback_m3722053328();
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMPush_AliasCallback_m2059208795(int32_t ___stCode0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMPush_RemainCallback_m479522190(int32_t ___stCode0, int32_t ___remain1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMPush_TagCallback_m4096952708(char* ___result0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMSocial_AuthCallback_m751506411(int32_t ___platform0, int32_t ___stCode1, char* ___key2, char* ___value3);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMSocial_ShareCallback_m3509684762(int32_t ___platform0, int32_t ___stCode1, char* ___errorMsg2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UMSocial_ShareBoardCallback_m768392399();
 extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[6] = 
 {
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMPush_AliasCallback_m1221664677),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMPush_RemainCallback_m703597396),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMPush_TagCallback_m41505297),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMSocial_AuthCallback_m2161930994),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMSocial_ShareCallback_m2090226676),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMSocial_ShareBoardCallback_m3722053328),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMPush_AliasCallback_m2059208795),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMPush_RemainCallback_m479522190),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMPush_TagCallback_m4096952708),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMSocial_AuthCallback_m751506411),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMSocial_ShareCallback_m3509684762),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_UMSocial_ShareBoardCallback_m768392399),
 };
